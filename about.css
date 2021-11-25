@@ -52,6 +52,7 @@ nav > ul {
 
 nav > ul > li {
   float: left;
+  display:block;
 }
 
 nav > ul> li a {
@@ -74,49 +75,25 @@ nav > ul > li a:hover {
 
 section {
    background-color:#00FFFF;
-   height:auto;
+   
 }
 
-section > ul > li {
-   list-style-type:"\1F48B";
+
+
+.col-container {
+    display: table; 
+    background-color:#00FFFF;
+    width: 100%; 
 }
 
-section > p > a:link {
-   font-size:13px;
-   font-family:verdana;
-   text-transform:lowercase;
-   font-weight:bold;
-   text-decoration:none;
-   color:#8E00FF;
+.col {
+    display: table-cell; 
+    padding: 16px;
 }
-
-section > p > a:hover {
-   font-family:verdana;
-   text-transform:lowercase;
-   font-weight:bold;
-   text-decoration:none;
-   color:#8E00FF;
-}
-
-section > p > a:active {
-   font-family:verdana;
-   text-transform:lowercase;
-   font-weight:bold;
-   text-decoration:none;
-   color:#8E00FF;
-}
-
-section > p > a:visited {
-   font-family:verdana;
-   text-transform:lowercase;
-   font-weight:bold;
-   text-decoration:none;
-   color:#8E00FF;
-}
-
          
 footer {
       background-color:#8E00FF;
+      clear:left;
 }
 
 footer > a:link {
